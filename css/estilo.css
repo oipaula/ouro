@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+h1{
+    color: #d9a600;
+    font-size: 80px;
+}
+body{
+    background-image: url(../imagens/BARRAS\ E\ MOEDAS\ DE\ OURO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link{
+    color: #f2f2f2;
+    margin:5px;
+    padding: 20px;
+}
+a:visited{
+    color: #d1b866;
+}
+a:hover{
+    color: #fafafa;
+    background-color: #d1b866;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
+}
+#area-cabecalho{
+    background-color: #5a5649;
+    text-align: center;
+    padding: 20px;
+}
+#area-logo{
+    background-color: #5a5649;
+    text-align: center;
+    padding: 10px;
+}
+#area-principal{
+    display: flex;
+    width: 80%;
+    margin: 5px auto;
+    padding: 15px;
+    justify-content: center;
+}
+#area-postagem-principal{
+    width: 70%;
+    justify-content: center;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #d9a600
+}
+
+.area-postagem-imagem {
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+.area-postagem-imagem2 {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+h3{
+    color: #5a5649;
+    padding: 10px;
+    font-size: 25px;
+}
+
+h2{
+    color: #fafafa;
+    font-size: 40px;
+}
+p{
+    color:#544a29;
+    font-size: 18px;
+}
+#area-rodape{
+    width: 100%;
+    height:15%;
+    background-color: #544a29;
+    text-align: center;
+    padding: 20px;
+    color:#f2f2f2;
+    font-size: 20px;
+    /*float: inline-end;*/
+    clear: both;
+}
